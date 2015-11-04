@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html language= "ENG"> 
+    <head>
+        <style>
+            img {
+                width: 500px;
+            }
+        </style>
+        <title> Week 2 </title>
+    </head>
+   <body background="http://www.designbolts.com/wp-content/uploads/2012/12/Simple-Horizontal-Seamless-Pattern-For-Website-Background.jpg">
+       <h1> Assignment 2 </h1>
+        
+        <section>
+            <img id="image1" src="http://collegechurch.org.au/wp-content/uploads/2013/07/Sermon-remember.jpg"> 
+            </br>
+            <h6><i>You can rotate the picture</i></h6>
+        </section>
+       
+        <section>
+              <button onClick="myFunction ()"> Turn the image</button>
+        </section>
+        
+        <script>
+          
+        // Beschrijving: Functie om de image1 te laten draaien
+        function myFunction () {
+            console.log("click registered");
+            document.getElementById("image1").style.transform = "rotate+angle"; 
+            var angle = "(angle+90)%360";
+            
+        
+        }
+        </script>
+
+    </body>
+</html>
